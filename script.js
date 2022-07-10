@@ -7,6 +7,6 @@ textInput.addEventListener('keyup', () => {
 const memeInsert = document.getElementById('meme-insert');
 memeInsert.addEventListener('input', () => {
   const imagePath = URL.createObjectURL(memeInsert.files[0]);
-  const image = document.getElementById('meme-image');
-  image.src = imagePath;
+  const imageElement = document.getElementById('meme-image');
+  imageElement.src = imagePath;
 });
