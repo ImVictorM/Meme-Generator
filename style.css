@@ -40,3 +40,12 @@
 #earth {
   background-color: green;
 }
+
+#miniature-container {
+  margin: 10px;
+}
+
+#miniature-container img {
+  width: 100px;
+  height: 100px;
+}

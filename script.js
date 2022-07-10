@@ -37,3 +37,12 @@ for (let index = 0; index < styleButtons.length; index += 1) {
     applyBorderStyle(event.target);
   });
 }
+
+const miniatures = document.getElementById('miniature-container').children;
+
+for (let index = 0; index < miniatures.length; index += 1) {
+  miniatures[index].addEventListener('click', (event) => {
+    const imageElement = document.getElementById('meme-image');
+    imageElement.src = event.target.src;
+  });
+}
