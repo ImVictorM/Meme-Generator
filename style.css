@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#meme-image-container {
+  border: 3px solid red;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+}
+
+#meme-image-container #meme-image {
+  width: 600px;
+  height: 600px;
+  z-index: 2;
+  position: absolute;
+}
+
+#meme-text {
+  z-index: 3;
+  position: absolute;
+}
