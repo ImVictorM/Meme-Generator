@@ -10,23 +10,28 @@
 </head>
 
 <body>
-  <input type="file" id="meme-insert">
-  <input type="text" id="text-input" maxlength="60">
-  <div id="meme-image-container">
-    <img src="" alt="" id="meme-image">
-    <p id="meme-text"></p>
-  </div>
-  <div id="button-container">
-    <button id="fire">Fire</button>
-    <button id="water">Water</button>
-    <button id="earth">Earth</button>
-  </div>
-  <div id="miniature-container">
-    <img src="imgs/meme1.png" alt="" id="meme-1">
-    <img src="imgs/meme2.png" alt="" id="meme-2">
-    <img src="imgs/meme3.png" alt="" id="meme-3">
-    <img src="imgs/meme4.png" alt="" id="meme-4">
-  </div>
+  <main>
+    <h1>Meme Generator</h1>
+    <input type="text" id="text-input" maxlength="60" placeholder="Insira uma legenda">
+    <input type="file" id="meme-insert">
+    <div id="meme-image-container">
+      <img id="meme-image">
+      <p id="meme-text"></p>
+    </div>
+    <h2>Palheta De Memes</h2>
+    <div id="button-container">
+      <button id="fire">Fire</button>
+      <button id="water">Water</button>
+      <button id="earth">Earth</button>
+    </div>
+    <div id="miniature-container">
+      <img src="imgs/meme1.png" alt="a mimir" id="meme-1">
+      <img src="imgs/meme2.png" alt="reginaldo pereira" id="meme-2">
+      <img src="imgs/meme3.png" alt="sherek deus" id="meme-3">
+      <img src="imgs/meme4.png" alt="cj filosofo" id="meme-4">
+    </div>
+  </main>
+
   <script src="script.js"></script>
 </body>
 
